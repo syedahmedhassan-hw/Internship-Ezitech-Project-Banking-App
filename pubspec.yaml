@@ -1,0 +1,38 @@
+name: bank_app
+description: A demo banking app (Flutter + Firebase)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.4
+
+  # Fingerprint / biometrics
+  local_auth: ^2.3.0
+
+  # QR code for account
+  qr_flutter: ^4.1.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Image picking for CNIC / card upload
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
